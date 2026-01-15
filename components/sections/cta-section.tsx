@@ -9,7 +9,7 @@ export function CtaSection() {
           Comece a converter mais hoje.
         </h2>
         <p className="text-sm md:text-base lg:text-lg text-zinc-600 mb-8 md:mb-10 text-balance px-2">
-          Crie sua conta grátis e descubra como a ImpulsePay pode transformar suas vendas.
+          Crie sua conta grátis e descubra como a Impulse<span className="text-emerald-500">Pay</span> pode transformar suas vendas.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="https://impulsepay.online/register">
