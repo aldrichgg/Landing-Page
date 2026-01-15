@@ -7,32 +7,16 @@ import {
   faCommentDots,
   faBolt,
   faChartLine,
-  faCreditCard,
-  faFileInvoice,
 } from "@fortawesome/free-solid-svg-icons"
 import Link from "next/link"
 
 const taxas = [
   {
     name: "Pix",
-    taxa: "1,99%",
+    taxa: "4,99% + R$ 2,00",
     descricao: "Pagamento instantâneo",
     icon: faBolt,
     destaque: true,
-  },
-  {
-    name: "Cartão de Crédito",
-    taxa: "4,99%",
-    descricao: "Até 12x sem juros",
-    icon: faCreditCard,
-    destaque: false,
-  },
-  {
-    name: "Boleto",
-    taxa: "R$ 2,99",
-    descricao: "Por boleto compensado",
-    icon: faFileInvoice,
-    destaque: false,
   },
 ]
 
@@ -73,7 +57,7 @@ export function PricingSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-12">
+        <div className="flex justify-center mb-8 md:mb-12">
           {taxas.map((item, index) => (
             <motion.div
               key={item.name}
@@ -81,7 +65,7 @@ export function PricingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
-              className={`p-6 md:p-8 rounded-2xl border flex flex-col items-center text-center shadow-sm ${item.destaque ? "bg-emerald-50 border-emerald-200" : "bg-white border-zinc-200"
+              className={`p-6 md:p-8 rounded-2xl border flex flex-col items-center text-center shadow-sm max-w-md w-full ${item.destaque ? "bg-emerald-50 border-emerald-200" : "bg-white border-zinc-200"
                 }`}
             >
               {item.destaque && (
