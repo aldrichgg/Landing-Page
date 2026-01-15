@@ -28,7 +28,7 @@ export function FooterSection() {
           {/* Logo e descrição - full width no mobile */}
           <div className="pb-6 border-b border-zinc-200 md:border-0 md:pb-0">
             <Link href="/" className="font-display text-xl font-semibold text-zinc-900">
-              ImpulsePay
+              Impulse<span className="text-emerald-500">Pay</span>
             </Link>
             <p className="mt-3 text-sm text-zinc-500 max-w-xs">
               Pagamentos para infoprodutores que querem escalar com performance.

@@ -81,9 +81,8 @@ export function PricingSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
-              className={`p-6 md:p-8 rounded-2xl border flex flex-col items-center text-center shadow-sm ${
-                item.destaque ? "bg-emerald-50 border-emerald-200" : "bg-white border-zinc-200"
-              }`}
+              className={`p-6 md:p-8 rounded-2xl border flex flex-col items-center text-center shadow-sm ${item.destaque ? "bg-emerald-50 border-emerald-200" : "bg-white border-zinc-200"
+                }`}
             >
               {item.destaque && (
                 <span className="text-xs font-medium text-emerald-600 uppercase tracking-wider mb-3 md:mb-4">
@@ -91,9 +90,8 @@ export function PricingSection() {
                 </span>
               )}
               <div
-                className={`w-12 h-12 md:w-14 md:h-14 rounded-xl flex items-center justify-center mb-3 md:mb-4 ${
-                  item.destaque ? "bg-emerald-100" : "bg-zinc-100"
-                }`}
+                className={`w-12 h-12 md:w-14 md:h-14 rounded-xl flex items-center justify-center mb-3 md:mb-4 ${item.destaque ? "bg-emerald-100" : "bg-zinc-100"
+                  }`}
               >
                 <FontAwesomeIcon
                   icon={item.icon}

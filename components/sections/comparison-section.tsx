@@ -27,7 +27,7 @@ export function ComparisonSection() {
             Vantagens
           </p>
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-zinc-900 mb-3 md:mb-4">
-            Por que escolher a ImpulsePay
+            Por que escolher a Impulse<span className="text-emerald-500">Pay</span>
           </h2>
           <p className="text-sm md:text-base text-zinc-600 max-w-xl mx-auto text-balance px-2">
             Veja como nos diferenciamos das plataformas tradicionais.
@@ -48,7 +48,7 @@ export function ComparisonSection() {
               <span className="text-xs md:text-sm font-medium text-zinc-500">Plataformas comuns</span>
             </div>
             <div className="p-3 md:p-4 text-center bg-emerald-50">
-              <span className="text-xs md:text-sm font-medium text-emerald-700">ImpulsePay</span>
+              <span className="text-xs md:text-sm font-medium text-emerald-700">Impulse<span className="text-emerald-700">Pay</span></span>
             </div>
           </div>
 

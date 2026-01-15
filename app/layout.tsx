@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "ImpulsePay | Pagamentos para Infoprodutores",
   description:
     "Transforme intenção em pagamento instantâneo. Plataforma de pagamentos criada para quem vende infoprodutos e quer escalar com performance.",
-  generator: "v0.app",
+
   icons: {
     icon: [
       {
