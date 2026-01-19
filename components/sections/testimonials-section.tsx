@@ -26,7 +26,7 @@ const testimonials = [
     role: "Mentora de Negócios",
   },
   {
-    text: "Estava perdendo muita venda por causa de checkout complicado. Com a Impulse<span className=\"text-emerald-500\">Pay</span>, a conversão disparou.",
+    text: "Estava perdendo muita venda por causa de checkout complicado. Com a ImpulsePay a conversão disparou.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
     name: "Rafael Santos",
     role: "Dono de E-commerce",
