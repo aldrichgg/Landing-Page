@@ -12,7 +12,7 @@ export function CtaSection() {
           Crie sua conta grátis e descubra como a Impulse<span className="text-emerald-500">Pay</span> pode transformar suas vendas.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="https://impulsepay.online/register">
+          <Link href="https://app.impulsepay.online/register">
             <LiquidCtaButton theme="light">Criar conta grátis</LiquidCtaButton>
           </Link>
         </div>
