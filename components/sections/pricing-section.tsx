@@ -89,6 +89,9 @@ export function PricingSection() {
               >
                 {item.taxa}
               </span>
+              <p className="text-xs text-zinc-500 mt-2 max-w-[200px]">
+                *Taxas negociáveis de acordo com o volume de vendas
+              </p>
             </motion.div>
           ))}
         </div>

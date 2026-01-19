@@ -92,7 +92,11 @@ export function FooterSection() {
             © {new Date().getFullYear()} ImpulsePay. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-5 order-1 md:order-2">
-            <Link href="#" className="text-zinc-400 hover:text-zinc-600 transition-colors" aria-label="Instagram">
+            <Link
+              href="https://www.instagram.com/impulsepay.digital/"
+              className="text-zinc-400 hover:text-zinc-600 transition-colors"
+              aria-label="Instagram"
+            >
               <FontAwesomeIcon icon={faInstagram} className="w-5 h-5" />
             </Link>
             <Link href="#" className="text-zinc-400 hover:text-zinc-600 transition-colors" aria-label="LinkedIn">
