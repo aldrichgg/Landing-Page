@@ -32,7 +32,7 @@ export function Navbar() {
             </Link>
           ))}
           <Link
-            href="https://impulsepay.online/register"
+            href="https://app.impulsepay.online/register"
             className="ml-2 px-4 py-1.5 text-sm rounded-full bg-emerald-500 text-white font-medium hover:bg-emerald-600 transition-colors"
           >
             Criar conta grátis
@@ -62,7 +62,7 @@ export function Navbar() {
               </Link>
             ))}
             <Link
-              href="https://impulsepay.online/register"
+              href="https://app.impulsepay.online/register"
               onClick={() => setIsOpen(false)}
               className="mt-2 px-4 py-3 text-sm text-center rounded-xl bg-emerald-500 text-white font-medium hover:bg-emerald-600 transition-colors"
             >

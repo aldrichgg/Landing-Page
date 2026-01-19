@@ -29,7 +29,7 @@ export function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
-          <Link href="#cta">
+          <Link href="https://app.impulsepay.online/register">
             <LiquidCtaButton theme="light">Criar conta grátis</LiquidCtaButton>
           </Link>
           <Link
